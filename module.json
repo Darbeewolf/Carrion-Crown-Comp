@@ -1,0 +1,104 @@
+{
+  "id": "carrion-crown-compendium-unofficial",
+  "title": "Carrion Crown Compendium (Unofficial)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>This module includes actors (NPCs, Loot Actors, &amp; Hazards), items, and journals from Darbee's Conversion.</p><p>All content is licensed under Paizo's CUP to be able to use parts of their product identity such as proper names; game mechanics are licensed under the OGL and ORC.</p>",
+  "authors": [
+    {
+      "name": "Darbee",
+      "discord": "Darbee",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "CC-Journals",
+      "label": "Journals",
+      "path": "packs/CC-Journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "CC-Actors",
+      "label": "Actors",
+      "path": "packs/CC-Actors",
+      "type": "Actor",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "CC-Rolltables",
+      "label": "Rolltables",
+      "path": "packs/CC-Rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "CC-Items",
+      "label": "Items",
+      "path": "packs/CC-Items",
+      "type": "Item",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+	{
+      "name": "CC-Maps",
+      "label": "Maps",
+      "path": "packs/CC-Maps",
+      "type": "Scene",
+      "ownership": {
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+  {
+      "name": "Carrion Crown Compendium",
+      "sorting": "m",
+      "packs": [
+        "CC-Actors",
+        "CC-Items",
+        "CC-Journals",
+        "CC-Rolltables",
+		"CC-Maps"
+      ]
+  }
+],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+			"minimum":"8.1.0"
+		}
+      }
+    ]
+  }
+  "url": "https://github.com/Darbeewolf/Carrion-Crown-Comp",
+  "manifest": "https://raw.githubusercontent.com/Darbeewolf/Carrion-Crown-Comp/master/module.json",
+  "download": "https://github.com/Darbeewolf/Carrion-Crown-Comp/archive/refs/heads/main.zip"
+}
