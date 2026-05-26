@@ -1,0 +1,12 @@
+2026/05/25-12:00:18.763 cb2c Recovering log #17
+2026/05/25-12:00:18.766 cb2c Level-0 table #20: started
+2026/05/25-12:00:18.774 cb2c Level-0 table #20: 806163 bytes OK
+2026/05/25-12:00:18.777 cb2c Delete type=0 #17
+2026/05/25-12:00:18.777 cb2c Delete type=3 #15
+2026/05/25-12:00:20.788 a304 Compacting 1@0 + 1@1 files
+2026/05/25-12:00:20.810 a304 Generated table #22@0: 2012 keys, 2127229 bytes
+2026/05/25-12:00:20.855 a304 Generated table #23@0: 1674 keys, 1380586 bytes
+2026/05/25-12:00:20.855 a304 Compacted 1@0 + 1@1 files => 3507815 bytes
+2026/05/25-12:00:20.856 a304 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/05/25-12:00:20.856 a304 Delete type=2 #18
+2026/05/25-12:00:20.856 a304 Delete type=2 #20

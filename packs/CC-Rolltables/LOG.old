@@ -1,0 +1,5 @@
+2026/05/25-12:00:18.807 cb2c Recovering log #15
+2026/05/25-12:00:18.809 cb2c Level-0 table #17: started
+2026/05/25-12:00:18.810 cb2c Level-0 table #17: 11292 bytes OK
+2026/05/25-12:00:18.812 cb2c Delete type=0 #15
+2026/05/25-12:00:18.812 cb2c Delete type=3 #14
